@@ -15,12 +15,12 @@ public class Main {
             }
         };
 
-        System.out.println("Sum of Two Integers by anonymous class is :"+add.sum(2,5));
+        System.out.println("Sum of two Integers by anonymous class is :"+add.sum(2,5));
 
 
         //using lambda expression
 
         Calculate add1 = (int a, int b)->a+b;
-        System.out.println("The addition by lmbda expression is :"+add1.sum(2,5));
+        System.out.println("The addition by lambda expression is :"+add1.sum(2,5));
     }
 }
